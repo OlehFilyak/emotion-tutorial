@@ -13,6 +13,16 @@ import Composition1 from "./Components/Composition/Composition1";
 import Composition2 from "./Components/Composition/Composition2";
 import ObjectStyles1 from "./Components/ObjectStyles1";
 import ChildSelectors from "./Components/ChildSelectors";
+import Numbers from "./Components/Numbers";
+import Array from "./Components/Array";
+import Fallbacks from "./Components/Fallbacks";
+import WithCss from "./Components/WithCss";
+import NestedSelectors1 from "./Components/NestedSelectors1";
+import NestedSelector2 from "./Components/NestedSelector2";
+import MediaQueries2 from "./Components/MediaQueries2";
+import MediaQueries3 from "./Components/MediaQueries3";
+import Facepaint from "./Components/Facepaint";
+import GlobalStyles from "./Components/GlobalStyles";
 
 import "./App.css";
 
@@ -36,6 +46,16 @@ function App() {
       <Composition2 />
       <ObjectStyles1 />
       <ChildSelectors />
+      <Numbers />
+      <Array />
+      <Fallbacks />
+      <WithCss />
+      <NestedSelectors1 />
+      <NestedSelector2 />
+      <MediaQueries2 />
+      <MediaQueries3 />
+      <Facepaint />
+      <GlobalStyles />
     </div>
   );
 }
