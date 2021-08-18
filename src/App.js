@@ -11,6 +11,9 @@ import AsProp from "./Components/AsProp";
 import NestingComponents from "./Components/NestingComponents";
 import Composition1 from "./Components/Composition/Composition1";
 import Composition2 from "./Components/Composition/Composition2";
+import ObjectStyles1 from "./Components/ObjectStyles1";
+import ChildSelectors from "./Components/ChildSelectors";
+
 import "./App.css";
 
 function App() {
@@ -31,6 +34,8 @@ function App() {
       <NestingComponents />
       <Composition1 />
       <Composition2 />
+      <ObjectStyles1 />
+      <ChildSelectors />
     </div>
   );
 }
